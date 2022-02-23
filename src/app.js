@@ -3,9 +3,36 @@ import "bootstrap";
 import "./style.css";
 
 import "./assets/img/rigo-baby.jpg";
-import "./assets/img/4geeks.ico";
+import "./style.css";
 
-window.onload = function() {
-  //write your code here
-  console.log("Hello Rigo from the console!");
+window.onload = () => {
+  document.querySelector(".card").classList.add("generateRandompinta");
+  document.querySelector(".card").innerHTML.add = generateRandomNumber();
+};
+
+let generateRandomNumber = () => {
+  let numbers = [
+    "A",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "j",
+    "Q",
+    "K"
+  ];
+  let indexnumbers = Math.floor(math.random() * numbers.length);
+  return numbers[indexnumbers];
+};
+
+let generateRandompinta = () => {
+  let pinta = ["diamante", "picas", "corazon", "trebol"];
+  let indexpinta = Math.floor(math.random() * pinta.length);
+
+  return pinta[indexpinta];
 };
