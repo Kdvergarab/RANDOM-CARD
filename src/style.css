@@ -4,7 +4,7 @@ body {
   background-color: rgb(24, 117, 24);
 }
 
-.card {
+.carta {
   display: inline-block;
   margin: auto;
   height: 350px;
@@ -14,27 +14,23 @@ body {
   border: 2px solid black;
   position: relative;
   margin-top: 30px;
-}
-.number {
-  font-size: 80px;
-  position: relative;
-  top: 90px;
+  background-color: white;
 }
 
-.top-suit {
+.arriba-pinta {
   position: absolute;
   top: 5px;
   left: 20px;
   font-size: 80px;
 }
 
-.bottom-suit {
+.abajo-pinta {
   position: absolute;
   bottom: 5px;
   right: 20px;
   font-size: 80px;
 }
-.number {
+#numero {
   font-size: 80px;
   position: relative;
   top: 90px;
