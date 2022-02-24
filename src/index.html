@@ -15,12 +15,19 @@
   </head>
   <body>
     <div class="text-center container-fluid">
-      <div clss="carta">
-        <span class="arriba-pinta">♠</span>
-        <span id="numero">7</span>
-        <span class="abajo-pinta">♠</span>
+      <div class="carta">
+        <span id="arriba-pinta"></span>
+        <span id="numero"></span>
+        <span id="abajo-pinta"></span>
       </div>
     </div>
+
+    <input
+      id="boton"
+      type="button"
+      value="Cambiar carta"
+      onClick="window.location.reload()"
+    />
 
     <script>
       type = "text/javascript";

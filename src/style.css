@@ -15,23 +15,33 @@ body {
   position: relative;
   margin-top: 30px;
   background-color: white;
+  font-size: 80px;
 }
 
-.arriba-pinta {
+#arriba-pinta {
   position: absolute;
   top: 5px;
   left: 20px;
   font-size: 80px;
 }
 
-.abajo-pinta {
+#abajo-pinta {
   position: absolute;
   bottom: 5px;
   right: 20px;
   font-size: 80px;
+  transform: rotate(180deg);
 }
 #numero {
   font-size: 80px;
   position: relative;
   top: 90px;
+}
+#boton {
+  background-color: rgb(191, 195, 251);
+  position: relative;
+  left: 370px;
+  border: 2px black solid;
+  padding: 10px;
+  margin: 10px;
 }
